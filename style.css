@@ -1,0 +1,145 @@
+body{
+    font-family:'Times New Roman', Times, serif ;
+    font-size:20px;
+    background-color:#1c1410;
+    color:#b0a79c;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.top-bar{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#shop{
+    border:4px;
+    background-color: #e8833a;
+    color:black;
+    border-radius: 15px;
+    padding:13px
+}
+
+h1{
+    color:rgb(173, 171, 171);
+}
+
+ul{
+    display:flex;
+    justify-content:flex-end;
+    gap:20px;
+    list-style-type: none;
+    color:#e8833a;
+    margin-top:35px
+    
+}
+a{
+    color:#b0a79c;
+    text-decoration:none;
+}
+h2{
+    font-weight: bold;
+    font-size:70px
+}
+
+
+span{
+    color:#e8833a;
+}
+button{
+    background-color: #e8833a;
+    color:black;
+    border: 4px;
+    padding:13px;
+    border-radius: 4px;
+    margin-top: 35px;
+    
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2 , 1fr);
+    justify-content:flex-start;
+    align-items: center;
+    gap:2px;
+
+}
+
+#column2{
+     margin-top:30px ;
+     border: 10px;
+     
+}
+.image-container{
+    width:100%;
+    height:400px;
+    
+
+
+}
+.image-container img{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+#container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    
+}
+#container p{
+    border:2px solid #533527;
+    padding:20px;
+    margin:4px;
+    border-radius: 8px;
+    place-items: center;
+
+}
+#container  p span{
+    font-size:10px;
+    color:#b0a79c;
+}
+.source-container{
+    background-color: #b0a79c;
+    height:400px;
+    margin-top: 40px;
+    gap:10px;
+
+
+}
+.source-container h3{
+    color:black;
+    
+}
+.source-container p{
+    color:black;
+    font-size:17px;
+}
+.inner-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-left:200px
+
+}
+.source-container .inner-container img{
+    margin-top: 60px;
+    margin-bottom: 6px;
+    width:320px;
+    height: 320px;
+    margin-right: 400px;
+    border:4px;
+    border-radius: 4px;
+}
+#footer-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1000px
+}
+#last-container{
+    justify-content: center;
+    margin-left: 50px;
+}
+#footer-container last-container p{
+    justify-content: flex-end;
+    
+}
